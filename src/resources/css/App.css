@@ -1,21 +1,22 @@
 .App {
-
+ text-align: center;
 }
 
 .App-logo {
+  float: left;
   animation: App-logo-spin infinite 20s linear;
   height: 50px;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 100px;
   padding-top: .75em;
   color: white;
 }
 
 .Nav-bar {
-  text-align: center;
+  padding-top: 50px;
 }
 
 .App-intro {
@@ -25,6 +26,12 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.PageHeader {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  margin: 15px 0px 15px 0px;
 }
 
 .LocInput {

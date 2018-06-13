@@ -6,7 +6,7 @@ const creditStyle = {
 };
 
 const githubStyle = {
-  textAlign: center;
+  textAlign: 'center'
 }
 
 const Footer = () => (

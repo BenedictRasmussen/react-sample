@@ -1,9 +1,8 @@
 import React from "react";
 
 const Titles = () => (
-  <div>
-    <h1>Sample React Application</h1>
-    <p>Some basic proficiencies</p>
+  <div className='PageHeader'>
+    <h1>Sample Rest Call</h1>
   </div>
 )
 

@@ -49,7 +49,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="p">
+      <div className="App">
         <Header />
         <Title />
         <Form getWeather={this.getWeather} />
