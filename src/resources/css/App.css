@@ -1,22 +1,13 @@
-.App {
- text-align: center;
-}
-
 .App-logo {
   float: left;
   animation: App-logo-spin infinite 20s linear;
   height: 50px;
 }
 
-.App-header {
+.app-header {
   background-color: #222;
-  height: 100px;
-  padding-top: .75em;
+  height: 8vh;
   color: white;
-}
-
-.Nav-bar {
-  padding-top: 50px;
 }
 
 .App-intro {
@@ -28,19 +19,49 @@
   to { transform: rotate(360deg); }
 }
 
-.PageHeader {
+.Nav-bar {
+  padding-top: 50px;
+}
+
+.Wrapper {
+  background: linear-gradient(to right, #e67e22, #e74c3c);
+  height: 100vh;
   text-align: center;
+}
+
+.title-container {
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  opacity: .5;
+  background-color: #a8a8a8;
   padding: 10px 0px 10px 0px;
   margin: 15px 0px 15px 0px;
 }
 
-.LocInput {
+.form-container {
+  height: 80vh;
+  padding: 10px 0px 10px 0px;
+  margin: 15px 0px 15px 0px;
+  background-color: #000000;
+}
+
+input[type="text"] {
+  background-color: transparent;
   border: 0;
   border-bottom: solid 1px #f16051;
-  margin-right: 10px;
-  font-size: 18px;
+  width: 30%;
+  padding-bottom: 4px;
+  color: #fff !important;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
 }
 
 .footer {
+  height: 5vh;
   background-color: #D3D3D3;
 }

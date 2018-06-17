@@ -1,9 +1,7 @@
 import React from "react";
 
 const Titles = () => (
-  <div className='PageHeader'>
-    <h1>Sample Rest Call</h1>
-  </div>
+  <h1>Weather REST Call</h1>
 )
 
 export default Titles;
