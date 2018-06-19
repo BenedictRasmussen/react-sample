@@ -4,8 +4,8 @@ import '../../resources/css/space-shooter.css';
 
 const SpaceShooterApp = () => (
   <div className="webgl-content">
-    <Unity src="public/space-shooter/Build/SpaceShooter.json"
-      loader="public/space-shooter/Build/UnityLoader.js" />
+    <Unity src="/Build/SpaceShooter.json"
+      loader="/Build/UnityLoader.js" />
   </div>
 );
 
