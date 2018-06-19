@@ -10,8 +10,9 @@
   color: white;
 }
 
-.App-intro {
-  font-size: large;
+.footer {
+  height: 5vh;
+  background-color: #D3D3D3;
 }
 
 @keyframes App-logo-spin {
@@ -23,45 +24,13 @@
   padding-top: 50px;
 }
 
-.Wrapper {
+.wrapper {
   background: linear-gradient(to right, #e67e22, #e74c3c);
   height: 100vh;
   text-align: center;
 }
 
-.title-container {
-  height: 80vh;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  opacity: .5;
-  background-color: #a8a8a8;
-  padding: 10px 0px 10px 0px;
-  margin: 15px 0px 15px 0px;
-}
-
-.form-container {
-  height: 80vh;
-  padding: 10px 0px 10px 0px;
-  margin: 15px 0px 15px 0px;
-  background-color: #000000;
-}
-
-input[type="text"] {
-  background-color: transparent;
-  border: 0;
-  border-bottom: solid 1px #f16051;
-  width: 30%;
-  padding-bottom: 4px;
-  color: #fff !important;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  margin-bottom: 30px;
-  margin-right: 20px;
-  font-size: 20px;
-}
-
-.footer {
-  height: 5vh;
-  background-color: #D3D3D3;
+#content-wrapper {
+  width: 100vw;
+  height: 87vh;
 }

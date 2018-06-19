@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import '../../resources/css/App.css';
+import '../../resources/css/weather.css';
 import WeatherTitle from "./WeatherTitle";
 import Form from "./Form";
 import Weather from "./Weather";
-import Footer from "../Footer";
 
 const API_KEY = 'afa3c3295945c2fbb1817c38c47a9790';
 
@@ -48,25 +47,24 @@ class App extends Component {
 
   render() {
     return (
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-5 title-container">
-                <WeatherTitle />
-              </div>
-              <div className="col-xs-7 form-container">
-                <Form getWeather={this.getWeather} />
-                <Weather
+      <div className="container">
+        <div className="row">
+           <div className="col-xs-5 title-container">
+              <WeatherTitle />
+           </div>
+           <div className="col-xs-7 form-container">
+             <Form getWeather={this.getWeather} />
+             <Weather
                   temperature={this.state.temperature}
                   city={this.state.city}
                   country={this.state.country}
                   humidity={this.state.humidity}
                   description={this.state.description}
                   error={this.state.error}
-                />
-              </div>
-            </div>
-            <Footer />
-          </div>
+             />
+           </div>
+         </div>
+      </div>
     );
   }
 }
