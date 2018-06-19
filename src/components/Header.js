@@ -1,7 +1,7 @@
 import React from 'react';
 
 import logo from '../resources/images/logo.svg';
-import NavBar from './NavBar'
+import NavBar from './NavBar';
 
 const Header = () => (
   <header>
