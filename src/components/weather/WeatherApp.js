@@ -49,7 +49,7 @@ class App extends Component {
     return (
       <div className="container">
         <div className="row">
-           <div className="col-xs-5 title-container">
+           <div className="col-xs-5 title-container weather-title">
               <WeatherTitle />
            </div>
            <div className="col-xs-7 form-container">

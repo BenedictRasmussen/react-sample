@@ -11,9 +11,13 @@
 
 .form-container {
   height: 80vh;
-  padding: 10px 0px 10px 0px;
+  padding: 50px 0px 10px 0px;
   margin: 15px 0px 15px 0px;
   background-color: #000000;
+}
+
+.weather-title {
+  background-image: url("../images/weather-stock.jpg");
 }
 
 input[type="text"] {
