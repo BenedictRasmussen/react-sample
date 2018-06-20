@@ -30,6 +30,23 @@
   text-align: center;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+li a {
+  color: white;
+}
+
 #content-wrapper {
   width: 100vw;
   height: 87vh;
