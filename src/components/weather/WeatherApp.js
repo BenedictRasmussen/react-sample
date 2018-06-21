@@ -47,7 +47,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container test">
         <div className="row">
            <div className="col-xs-5 title-container weather-title">
               <WeatherTitle />

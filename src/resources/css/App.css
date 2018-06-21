@@ -47,6 +47,10 @@ li a {
   color: white;
 }
 
+li a:hover {
+  color: #e74c3c;
+}
+
 #content-wrapper {
   width: 100vw;
   height: 87vh;

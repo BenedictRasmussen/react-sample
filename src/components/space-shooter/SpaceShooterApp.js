@@ -5,11 +5,11 @@ import '../../resources/css/space-shooter.css';
 class SpaceShooterApp extends Component {
   render() {
     return (
-      <div className="webgl-content">
-        <Unity src="/space-shooter/Build/SpaceShooterV2.json"
-          loader="/space-shooter/Build/UnityLoader.js"
-          width="45vw" height="80vh"/>
-      </div>
+        <div className="webgl-content">
+          <Unity src="/space-shooter/Build/SpaceShooterV2.json"
+            loader="/space-shooter/Build/UnityLoader.js"
+            width="60vw" height="80vh"/>
+        </div>
     );
   }
 

@@ -12,7 +12,7 @@ const githubStyle = {
 const Footer = () => (
   <footer className="navbar navbar-fixed-bottom footer">
     <div style={githubStyle}>
-      <a href=''>
+      <a href='https://www.github.com/BenedictRasmussen'>
         Benedict Rasmussen
       </a>
     </div>
